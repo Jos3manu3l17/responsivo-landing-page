@@ -1,0 +1,21 @@
+.hero-text {
+  max-width: 400px;
+}
+
+.hero-text h1 {
+  color: var(--color-primario);
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,28 @@
+.hero-form {
+  background-color: #c7c4c4;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(41, 133, 1, 0.115);
+  width: 350px;
+}
+
+.hero-form h2 {
+  color: var(--color-primario);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hero-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-form input {
+  padding: 10px;
+  border: 1px solid var(--color-secundario);
+  border-radius: 10px;  
+}
+
+
+

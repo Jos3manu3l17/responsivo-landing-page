@@ -1,0 +1,30 @@
+.btn {
+  background-color: var(--color-primario);
+  color: #6f6f6f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.btn--reservar {
+  background-color: var(--color-primario);
+  color: var(--color-terciario);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn--reservar:hover {
+  background-color: #049404; 
+  transform: scale(1.05); 
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--color-primario);
+  color: var(--color-primario);
+}
